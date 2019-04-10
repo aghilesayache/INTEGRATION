@@ -1,59 +1,52 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
- <modelVersion>4.0.0</modelVersion>
-<groupId>org.talend</groupId>
-<artifactId>buildsources</artifactId>
-<version>A.B.C</version>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.talend</groupId>
+    <artifactId>buildsources</artifactId>
+    <version>A.B.C</version>
 
-<properties>
-    <!-- Required. Commandline application workspace and Studio path, only for local(script) mode -->
-    <commandline.workspace>commandline_workspace_path</commandline.workspace>   
-    <product.path>studio_path</product.path>
-    <!-- Optional. Specify target directory where generated sources will be stored -->
-    <projectsTargetDirectory>${basedir}/projectSources</projectsTargetDirectory> 
-    <!-- Optional. Specify version for the artifact to be built. Can be set for each Job independently -->
-    <deploy.version>A.B.C-SNAPSHOT</deploy.version>
-</properties>
+    <properties>
+        <!-- Required. Commandline application workspace and Studio path, only for local(script) mode -->
+        <commandline.workspace>C:\Users\aayache\Desktop\studio_talend\new\studio\Talend-Studio-20180116_1512-V6.5.1\commandline.bat</commandline.workspace>   
+        <product.path>C:\Users\aayache\Desktop\studio_talend\new\studio\Talend-Studio-20180116_1512-V6.5.1\workspace</product.path>
+        <!-- Optional. Specify target directory where generated sources will be stored -->
+        <projectsTargetDirectory>C:\Program Files (x86)\Jenkins\workspace\RunTests\projectSources</projectsTargetDirectory> 
+        <!-- Optional. Specify version for the artifact to be built. Can be set for each Job independently -->
+        <deploy.version>1.0.0-SNAPSHOT</deploy.version>
+    </properties>
 
-<build>
-    <plugins>
-        <plugin>
-            <groupId>org.talend</groupId>
-            <artifactId>ci.builder</artifactId>
-            <version>A.B.C</version>
-            <executions>
-                <execution>
-                    <phase>generate-sources</phase>
-                    <goals>
-                        <!-- local(script) mode -->
-                        <goal>local-generate</goal>
-                    </goals>
-                    <configuration>
-                        <!-- Optional. Specify CommandLine user -->
-                        <commandlineUser>jobbuilder@talend.com</commandlineUser>
-                        <!-- Optional. Jvm Parameters for local(script) mode -->
-                        <!-- <jvmArguments>-ea -Xms512m -Xmx1300m -XX:+CMSClassUnloadingEnabled -XX:MinHeapFreeRatio=10 -XX:MaxHeapFreeRatio=20 -XX:+HeapDumpOnOutOfMemoryError</jvmArguments> -->
-                        <!-- Optional. Parameter used to filter on specific Job status (TEST, DEV, PROD, etc)  -->
-                        <!-- <itemFilter>(status=TEST)or(status=PROD)or(status="")</itemFilter> -->
-                    </configuration>
-                </execution>
-            </executions>
-        </plugin>
-    </plugins>
-</build>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.talend</groupId>
+                <artifactId>ci.builder</artifactId>
+                <version>A.B.C</version>
+                <executions>
+                    <execution>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <!-- local(script) mode -->
+                            <goal>local-generate</goal>
+                        </goals>
+                        <configuration>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 
-<pluginRepositories>
-    <!-- everything through Maven Central Proxy -->
-        <pluginRepository>
-            <id>Central</id>
-            <name>Central</name>
-            <url>http://<host>:<port>/nexus/content/repositories/central</url>
-        </pluginRepository>
-        <pluginRepository>
-            <id>thirdparty</id>
-            <name>thirdparty</name>
-            <url>http://<host>:<port>/nexus/content/repositories/thirdparty/</url>
-        </pluginRepository>
-</pluginRepositories>
-
+    <pluginRepositories>
+        <!-- everything through Maven Central Proxy -->
+            <pluginRepository>
+                <id>Central</id>
+                <name>Central</name>
+                <url>http://localhost:8081/nexus/content/repositories/central</url>
+            </pluginRepository>
+            <pluginRepository>
+                <id>thirdparty</id>
+                <name>thirdparty</name>
+                <url>http://localhost:8081/nexus/content/repositories/thirdparty/</url>
+            </pluginRepository>
+    </pluginRepositories>
 </project>
