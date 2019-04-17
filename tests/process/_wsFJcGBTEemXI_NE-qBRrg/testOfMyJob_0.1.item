@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcontainer:TestContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:testcontainer="http://www.talend.com/testcontainer.ecore" xmi:id="_BnapMGBUEemXI_NE-qBRrg" defaultContext="Default" jobType="Standard" originalJobID="_wsFJcGBTEemXI_NE-qBRrg" parentVersion="0.1">
+  <context xmi:id="_BnapMWBUEemXI_NE-qBRrg" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_BnapMmBUEemXI_NE-qBRrg" comment="" name="input_file1" prompt="input_file1?" promptNeeded="false" type="id_File" value=""/>
+    <contextParameter xmi:id="_BnapM2BUEemXI_NE-qBRrg" comment="" name="reference_file1" prompt="reference_file1?" promptNeeded="false" type="id_File" value=""/>
+  </context>
+  <parameters xmi:id="_BnapNGBUEemXI_NE-qBRrg">
+    <elementParameter xmi:id="_BnapNWBUEemXI_NE-qBRrg" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter xmi:id="_BnapNmBUEemXI_NE-qBRrg" field="TEXT" name="SCREEN_OFFSET_Y" value="64" show="false"/>
+    <elementParameter xmi:id="_BnapN2BUEemXI_NE-qBRrg" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_BnapOGBUEemXI_NE-qBRrg" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_BnapOWBUEemXI_NE-qBRrg" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_BnapOmBUEemXI_NE-qBRrg" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_BnapO2BUEemXI_NE-qBRrg" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_BnapPGBUEemXI_NE-qBRrg" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_BnapPWBUEemXI_NE-qBRrg" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_BnapPmBUEemXI_NE-qBRrg" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_BnapP2BUEemXI_NE-qBRrg" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_BnapQGBUEemXI_NE-qBRrg" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_BnapQWBUEemXI_NE-qBRrg" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_BnapQmBUEemXI_NE-qBRrg" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_BnapQ2BUEemXI_NE-qBRrg" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_BnapRGBUEemXI_NE-qBRrg" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_BnapRWBUEemXI_NE-qBRrg" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_BnapRmBUEemXI_NE-qBRrg" field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="false" show="false"/>
+    <elementParameter xmi:id="_BnapR2BUEemXI_NE-qBRrg" field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="false" show="false"/>
+    <elementParameter xmi:id="_BnapSGBUEemXI_NE-qBRrg" field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter xmi:id="_BnapSWBUEemXI_NE-qBRrg" field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter xmi:id="_BnapSmBUEemXI_NE-qBRrg" field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter xmi:id="_BnapS2BUEemXI_NE-qBRrg" field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter xmi:id="_BnapTGBUEemXI_NE-qBRrg" field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter xmi:id="_BnapTWBUEemXI_NE-qBRrg" field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;C:/Users/aayache/Desktop/studio_talend/new/studio/Talend-Studio-20180116_1512-V6.5.1/workspace/in.csv&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapTmBUEemXI_NE-qBRrg" field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapT2BUEemXI_NE-qBRrg" field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter xmi:id="_BnapUGBUEemXI_NE-qBRrg" field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="ORACLE_11" show="false"/>
+    <elementParameter xmi:id="_BnapUWBUEemXI_NE-qBRrg" field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapUmBUEemXI_NE-qBRrg" field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter xmi:id="_BnapU2BUEemXI_NE-qBRrg" field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapVGBUEemXI_NE-qBRrg" field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapVWBUEemXI_NE-qBRrg" field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapVmBUEemXI_NE-qBRrg" field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapV2BUEemXI_NE-qBRrg" field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapWGBUEemXI_NE-qBRrg" field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapWWBUEemXI_NE-qBRrg" field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapWmBUEemXI_NE-qBRrg" field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapW2BUEemXI_NE-qBRrg" field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter xmi:id="_BnapXGBUEemXI_NE-qBRrg" field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapXWBUEemXI_NE-qBRrg" field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapXmBUEemXI_NE-qBRrg" field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapX2BUEemXI_NE-qBRrg" field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter xmi:id="_BnapYGBUEemXI_NE-qBRrg" field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter xmi:id="_BnapYWBUEemXI_NE-qBRrg" field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+    <elementParameter xmi:id="_BnapYmBUEemXI_NE-qBRrg" field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter xmi:id="_BnapY2BUEemXI_NE-qBRrg" field="CHECK" name="DISABLE_WARNINGS" value="true" show="false"/>
+    <elementParameter xmi:id="_BnapZGBUEemXI_NE-qBRrg" field="CHECK" name="DISABLE_INFO" value="true" show="false"/>
+    <elementParameter xmi:id="_BnapZWBUEemXI_NE-qBRrg" field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter xmi:id="_BnapZmBUEemXI_NE-qBRrg" field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter xmi:id="_BnapZ2BUEemXI_NE-qBRrg" field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter xmi:id="_BnapaGBUEemXI_NE-qBRrg" field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter xmi:id="_BnapaWBUEemXI_NE-qBRrg" field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter xmi:id="_BnapamBUEemXI_NE-qBRrg" field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Users/aayache/Desktop/studio_talend/new/studio/Talend-Studio-20180116_1512-V6.5.1/workspace/.metadata&quot;" show="false"/>
+    <elementParameter xmi:id="_Bnapa2BUEemXI_NE-qBRrg" field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapbGBUEemXI_NE-qBRrg" field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapbWBUEemXI_NE-qBRrg" field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapbmBUEemXI_NE-qBRrg" field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter xmi:id="_Bnapb2BUEemXI_NE-qBRrg" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter xmi:id="_BnapcGBUEemXI_NE-qBRrg" field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter xmi:id="_BnapcWBUEemXI_NE-qBRrg" field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
+    <elementParameter xmi:id="_BnapcmBUEemXI_NE-qBRrg" field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11" show="false"/>
+    <elementParameter xmi:id="_Bnapc2BUEemXI_NE-qBRrg" field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapdGBUEemXI_NE-qBRrg" field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter xmi:id="_BnapdWBUEemXI_NE-qBRrg" field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapdmBUEemXI_NE-qBRrg" field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_Bnapd2BUEemXI_NE-qBRrg" field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapeGBUEemXI_NE-qBRrg" field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapeWBUEemXI_NE-qBRrg" field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapemBUEemXI_NE-qBRrg" field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_Bnape2BUEemXI_NE-qBRrg" field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapfGBUEemXI_NE-qBRrg" field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapfWBUEemXI_NE-qBRrg" field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapfmBUEemXI_NE-qBRrg" field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter xmi:id="_Bnapf2BUEemXI_NE-qBRrg" field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapgGBUEemXI_NE-qBRrg" field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapgWBUEemXI_NE-qBRrg" field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapgmBUEemXI_NE-qBRrg" field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_Bnapg2BUEemXI_NE-qBRrg" field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter xmi:id="_BnaphGBUEemXI_NE-qBRrg" field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter xmi:id="_BnaphWBUEemXI_NE-qBRrg" field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter xmi:id="_BnaphmBUEemXI_NE-qBRrg" field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter xmi:id="_Bnaph2BUEemXI_NE-qBRrg" field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter xmi:id="_BnapiGBUEemXI_NE-qBRrg" field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter xmi:id="_BnapiWBUEemXI_NE-qBRrg" field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter xmi:id="_BnapimBUEemXI_NE-qBRrg" field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter xmi:id="_Bnapi2BUEemXI_NE-qBRrg" field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter xmi:id="_BnapjGBUEemXI_NE-qBRrg" field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter xmi:id="_BnapjWBUEemXI_NE-qBRrg" field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter xmi:id="_BnapjmBUEemXI_NE-qBRrg" field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter xmi:id="_Bnapj2BUEemXI_NE-qBRrg" field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter xmi:id="_BnapkGBUEemXI_NE-qBRrg" field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <routinesParameter xmi:id="_BnapkWBUEemXI_NE-qBRrg" id="_poiOMmBTEemXI_NE-qBRrg" name="DataOperation"/>
+    <routinesParameter xmi:id="_BnapkmBUEemXI_NE-qBRrg" id="_pplXFGBTEemXI_NE-qBRrg" name="Mathematical"/>
+    <routinesParameter xmi:id="_Bnapk2BUEemXI_NE-qBRrg" id="_ppuhAGBTEemXI_NE-qBRrg" name="Numeric"/>
+    <routinesParameter xmi:id="_BnaplGBUEemXI_NE-qBRrg" id="_ppuhCmBTEemXI_NE-qBRrg" name="Relational"/>
+    <routinesParameter xmi:id="_BnaplWBUEemXI_NE-qBRrg" id="_pp4SAGBTEemXI_NE-qBRrg" name="StringHandling"/>
+    <routinesParameter xmi:id="_BnaplmBUEemXI_NE-qBRrg" id="_pp4SCmBTEemXI_NE-qBRrg" name="TalendDataGenerator"/>
+    <routinesParameter xmi:id="_Bnapl2BUEemXI_NE-qBRrg" id="_pqBb9mBTEemXI_NE-qBRrg" name="TalendDate"/>
+    <routinesParameter xmi:id="_BnapmGBUEemXI_NE-qBRrg" id="_pqBcAGBTEemXI_NE-qBRrg" name="TalendString"/>
+    <routinesParameter xmi:id="_BnapmWBUEemXI_NE-qBRrg" id="_pqLM-WBTEemXI_NE-qBRrg" name="TalendStringUtil"/>
+    <routinesParameter xmi:id="_BnapmmBUEemXI_NE-qBRrg" id="_pqU98GBTEemXI_NE-qBRrg" name="SQLike"/>
+    <routinesParameter xmi:id="_Bnapm2BUEemXI_NE-qBRrg" id="_pqU9-mBTEemXI_NE-qBRrg" name="DataMasking"/>
+    <routinesParameter xmi:id="_BnapnGBUEemXI_NE-qBRrg" id="_pqeH6WBTEemXI_NE-qBRrg" name="DataQuality"/>
+    <routinesParameter xmi:id="_BnapnWBUEemXI_NE-qBRrg" id="_pqn46WBTEemXI_NE-qBRrg" name="DataQualityDependencies"/>
+    <routinesParameter xmi:id="_BnapnmBUEemXI_NE-qBRrg" id="_pqxp5mBTEemXI_NE-qBRrg" name="DqStringHandling"/>
+    <routinesParameter xmi:id="_Bnapn2BUEemXI_NE-qBRrg" id="_pqxp8GBTEemXI_NE-qBRrg" name="DQTechnical"/>
+  </parameters>
+  <node xmi:id="_BnapoGBUEemXI_NE-qBRrg" componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="160">
+    <elementParameter xmi:id="_BnapoWBUEemXI_NE-qBRrg" field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
+    <elementParameter xmi:id="_BnapomBUEemXI_NE-qBRrg" field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter xmi:id="_Bnapo2BUEemXI_NE-qBRrg" field="FILE" name="FILENAME" value="context.input_file1"/>
+    <elementParameter xmi:id="_BnappGBUEemXI_NE-qBRrg" field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter xmi:id="_BnappWBUEemXI_NE-qBRrg" field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter xmi:id="_BnappmBUEemXI_NE-qBRrg" field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter xmi:id="_Bnapp2BUEemXI_NE-qBRrg" field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter xmi:id="_BnapqGBUEemXI_NE-qBRrg" field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapqWBUEemXI_NE-qBRrg" field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapqmBUEemXI_NE-qBRrg" field="TEXT" name="HEADER" value="0"/>
+    <elementParameter xmi:id="_Bnapq2BUEemXI_NE-qBRrg" field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter xmi:id="_BnaprGBUEemXI_NE-qBRrg" field="TEXT" name="LIMIT" value=""/>
+    <elementParameter xmi:id="_BnaprWBUEemXI_NE-qBRrg" field="CHECK" name="REMOVE_EMPTY_ROW" value="true"/>
+    <elementParameter xmi:id="_BnaprmBUEemXI_NE-qBRrg" field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter xmi:id="_Bnapr2BUEemXI_NE-qBRrg" field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter xmi:id="_BnapsGBUEemXI_NE-qBRrg" field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/aayache/Desktop/studio_talend/new/studio/Talend-Studio-20180116_1512-V6.5.1/workspace&quot;" show="false"/>
+    <elementParameter xmi:id="_BnapsWBUEemXI_NE-qBRrg" field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter xmi:id="_BnapsmBUEemXI_NE-qBRrg" field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter xmi:id="_Bnaps2BUEemXI_NE-qBRrg" field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter xmi:id="_BnaptGBUEemXI_NE-qBRrg" field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter xmi:id="_BnaptWBUEemXI_NE-qBRrg" field="TEXT" name="NB_RANDOM" value="10" show="false"/>
+    <elementParameter xmi:id="_BnaptmBUEemXI_NE-qBRrg" field="CHECK" name="TRIMALL" value="false"/>
+    <elementParameter xmi:id="_Bnapt2BUEemXI_NE-qBRrg" field="TABLE" name="TRIMSELECT">
+      <elementValue xmi:id="_BnapuGBUEemXI_NE-qBRrg" elementRef="SCHEMA_COLUMN" value="newColumn"/>
+      <elementValue xmi:id="_BnapuWBUEemXI_NE-qBRrg" elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter xmi:id="_BnapumBUEemXI_NE-qBRrg" field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter xmi:id="_Bnapu2BUEemXI_NE-qBRrg" field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter xmi:id="_BnapvGBUEemXI_NE-qBRrg" field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter xmi:id="_BnapvWBUEemXI_NE-qBRrg" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter xmi:id="_BnapvmBUEemXI_NE-qBRrg" field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter xmi:id="_Bnapv2BUEemXI_NE-qBRrg" field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter xmi:id="_BnapwGBUEemXI_NE-qBRrg" field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue xmi:id="_BnapwWBUEemXI_NE-qBRrg" elementRef="SCHEMA_COLUMN" value="newColumn"/>
+      <elementValue xmi:id="_BnapwmBUEemXI_NE-qBRrg" elementRef="DECODE" value="false"/>
+    </elementParameter>
+    <elementParameter xmi:id="_Bnapw2BUEemXI_NE-qBRrg" field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter xmi:id="_BnapxGBUEemXI_NE-qBRrg" field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter xmi:id="_BnapxWBUEemXI_NE-qBRrg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_BnapxmBUEemXI_NE-qBRrg" connector="FLOW" name="tFileInputDelimited_1">
+      <column xmi:id="_Bnapx2BUEemXI_NE-qBRrg" comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField xmi:id="_BnapyGBUEemXI_NE-qBRrg" key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getAsciiRandomString&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;length&quot;,&quot;PARAMETER_VALUE&quot;:&quot;6&quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendString&quot;}"/>
+      </column>
+    </metadata>
+    <metadata xmi:id="_BnapyWBUEemXI_NE-qBRrg" connector="REJECT" name="REJECT">
+      <column xmi:id="_BnapymBUEemXI_NE-qBRrg" comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField xmi:id="_Bnapy2BUEemXI_NE-qBRrg" key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getAsciiRandomString&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;length&quot;,&quot;PARAMETER_VALUE&quot;:&quot;6&quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendString&quot;}"/>
+      </column>
+      <column xmi:id="_BnapzGBUEemXI_NE-qBRrg" defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_BnapzWBUEemXI_NE-qBRrg" defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node xmi:id="_BnapzmBUEemXI_NE-qBRrg" componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="768" posY="192">
+    <elementParameter xmi:id="_Bnapz2BUEemXI_NE-qBRrg" field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_1" show="false"/>
+    <elementParameter xmi:id="_Bnap0GBUEemXI_NE-qBRrg" field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter xmi:id="_Bnap0WBUEemXI_NE-qBRrg" field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
+    <elementParameter xmi:id="_Bnap0mBUEemXI_NE-qBRrg" field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tCreateTemporaryFile_1_FILEPATH&quot;))"/>
+    <elementParameter xmi:id="_Bnap02BUEemXI_NE-qBRrg" field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter xmi:id="_Bnap1GBUEemXI_NE-qBRrg" field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
+    <elementParameter xmi:id="_Bnap1WBUEemXI_NE-qBRrg" field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter xmi:id="_Bnap1mBUEemXI_NE-qBRrg" field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter xmi:id="_Bnap12BUEemXI_NE-qBRrg" field="CHECK" name="APPEND" value="false"/>
+    <elementParameter xmi:id="_Bnap2GBUEemXI_NE-qBRrg" field="CHECK" name="INCLUDEHEADER" value="false"/>
+    <elementParameter xmi:id="_Bnap2WBUEemXI_NE-qBRrg" field="CHECK" name="COMPRESS" value="false"/>
+    <elementParameter xmi:id="_Bnap2mBUEemXI_NE-qBRrg" field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter xmi:id="_Bnap22BUEemXI_NE-qBRrg" field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter xmi:id="_Bnap3GBUEemXI_NE-qBRrg" field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter xmi:id="_Bnap3WBUEemXI_NE-qBRrg" field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter xmi:id="_Bnap3mBUEemXI_NE-qBRrg" field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_Bnap32BUEemXI_NE-qBRrg" field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_Bnap4GBUEemXI_NE-qBRrg" field="CHECK" name="CREATE" value="true"/>
+    <elementParameter xmi:id="_Bnap4WBUEemXI_NE-qBRrg" field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter xmi:id="_Bnap4mBUEemXI_NE-qBRrg" field="TEXT" name="SPLIT_EVERY" value="1000" show="false"/>
+    <elementParameter xmi:id="_Bnap42BUEemXI_NE-qBRrg" field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter xmi:id="_Bnap5GBUEemXI_NE-qBRrg" field="TEXT" name="FLUSHONROW_NUM" value="1" show="false"/>
+    <elementParameter xmi:id="_Bnap5WBUEemXI_NE-qBRrg" field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter xmi:id="_Bnap5mBUEemXI_NE-qBRrg" field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter xmi:id="_Bnap52BUEemXI_NE-qBRrg" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter xmi:id="_Bnap6GBUEemXI_NE-qBRrg" field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter xmi:id="_Bnap6WBUEemXI_NE-qBRrg" field="CHECK" name="FILE_EXIST_EXCEPTION" value="false"/>
+    <elementParameter xmi:id="_Bnap6mBUEemXI_NE-qBRrg" field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
+    <elementParameter xmi:id="_Bnap62BUEemXI_NE-qBRrg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_Bnap7GBUEemXI_NE-qBRrg" connector="FLOW" name="tFileOutputDelimited_1">
+      <column xmi:id="_Bnap7WBUEemXI_NE-qBRrg" comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField xmi:id="_Bnap7mBUEemXI_NE-qBRrg" key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getAsciiRandomString&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;length&quot;,&quot;PARAMETER_VALUE&quot;:&quot;6&quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendString&quot;}"/>
+      </column>
+    </metadata>
+  </node>
+  <node xmi:id="_Bnap72BUEemXI_NE-qBRrg" componentName="tCreateTemporaryFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="32">
+    <elementParameter xmi:id="_Bnap8GBUEemXI_NE-qBRrg" field="TEXT" name="UNIQUE_NAME" value="tCreateTemporaryFile_1" show="false"/>
+    <elementParameter xmi:id="_Bnap8WBUEemXI_NE-qBRrg" field="CHECK" name="REMOVE" value="true"/>
+    <elementParameter xmi:id="_Bnap8mBUEemXI_NE-qBRrg" field="CHECK" name="USE_DEFAULT_DIR" value="true"/>
+    <elementParameter xmi:id="_Bnap82BUEemXI_NE-qBRrg" field="DIRECTORY" name="DIRECTORY" value="&quot;C:/Users/aayache/Desktop/studio_talend/new/studio/Talend-Studio-20180116_1512-V6.5.1/workspace&quot;" show="false"/>
+    <elementParameter xmi:id="_Bnap9GBUEemXI_NE-qBRrg" field="LABEL" name="INFO_RANGE" value="the temporary file name should include template &quot;XXXX&quot;."/>
+    <elementParameter xmi:id="_Bnap9WBUEemXI_NE-qBRrg" field="TEXT" name="TEMPLATE" value="&quot;talend_XXXX&quot;"/>
+    <elementParameter xmi:id="_Bnap9mBUEemXI_NE-qBRrg" field="TEXT" name="SUFFIX" value="&quot;tmp&quot;"/>
+    <elementParameter xmi:id="_Bnap92BUEemXI_NE-qBRrg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_Bnap-GBUEemXI_NE-qBRrg" componentName="tFileCompare" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="256">
+    <elementParameter xmi:id="_Bnap-WBUEemXI_NE-qBRrg" field="TEXT" name="UNIQUE_NAME" value="tFileCompare_1" show="false"/>
+    <elementParameter xmi:id="_Bnap-mBUEemXI_NE-qBRrg" field="CLOSED_LIST" name="COMPARISON_MODE" value="TEXT_CMP"/>
+    <elementParameter xmi:id="_Bnap-2BUEemXI_NE-qBRrg" field="FILE" name="FILE" value="((String)globalMap.get(&quot;tCreateTemporaryFile_1_FILEPATH&quot;))"/>
+    <elementParameter xmi:id="_Bnap_GBUEemXI_NE-qBRrg" field="FILE" name="FILE_REF" value="context.reference_file1"/>
+    <elementParameter xmi:id="_Bnap_WBUEemXI_NE-qBRrg" field="TEXT" name="DIFFER_MESSAGE" value="&quot;[job &quot; + jobName + &quot;] Files differ&quot;"/>
+    <elementParameter xmi:id="_Bnap_mBUEemXI_NE-qBRrg" field="TEXT" name="NO_DIFFER_MESSAGE" value="&quot;[job &quot; + jobName + &quot;] Files are identical&quot;"/>
+    <elementParameter xmi:id="_Bnap_2BUEemXI_NE-qBRrg" field="CHECK" name="PRINT" value="true"/>
+    <elementParameter xmi:id="_BnaqAGBUEemXI_NE-qBRrg" field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter xmi:id="_BnaqAWBUEemXI_NE-qBRrg" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter xmi:id="_BnaqAmBUEemXI_NE-qBRrg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_BnaqA2BUEemXI_NE-qBRrg" connector="FLOW" name="tFileCompare_1">
+      <column xmi:id="_BnaqBGBUEemXI_NE-qBRrg" defaultValue="" key="false" length="255" name="file" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_BnaqBWBUEemXI_NE-qBRrg" defaultValue="" key="false" length="255" name="file_ref" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_BnaqBmBUEemXI_NE-qBRrg" defaultValue="" key="false" length="0" name="moment" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_BnaqB2BUEemXI_NE-qBRrg" defaultValue="" key="false" length="50" name="job" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_BnaqCGBUEemXI_NE-qBRrg" defaultValue="" key="false" length="255" name="component" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_BnaqCWBUEemXI_NE-qBRrg" defaultValue="" key="false" length="1" name="differ" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column xmi:id="_BnaqCmBUEemXI_NE-qBRrg" defaultValue="" key="false" length="255" name="message" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node xmi:id="_BnaqC2BUEemXI_NE-qBRrg" componentName="tAssert" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="256" posY="256">
+    <elementParameter xmi:id="_BnaqDGBUEemXI_NE-qBRrg" field="TEXT" name="UNIQUE_NAME" value="tAssert_1" show="false"/>
+    <elementParameter xmi:id="_BnaqDWBUEemXI_NE-qBRrg" field="TEXT" name="DESCRIPTION" value="&quot;File from reference differs from input&quot;"/>
+    <elementParameter xmi:id="_BnaqDmBUEemXI_NE-qBRrg" field="MEMO_JAVA" name="EXPRESSION" value="true"/>
+    <elementParameter xmi:id="_BnaqD2BUEemXI_NE-qBRrg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata xmi:id="_BnaqEGBUEemXI_NE-qBRrg" connector="FLOW" name="tAssert_1"/>
+  </node>
+  <connection xmi:id="_BnaqEWBUEemXI_NE-qBRrg" connectorName="FLOW" label="row2" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="INPUT_1">
+    <elementParameter xmi:id="_BnaqEmBUEemXI_NE-qBRrg" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_BnaqE2BUEemXI_NE-qBRrg" field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
+  </connection>
+  <connection xmi:id="_BnaqFGBUEemXI_NE-qBRrg" connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tFileCompare_1">
+    <elementParameter xmi:id="_BnaqFWBUEemXI_NE-qBRrg" field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
+  </connection>
+  <connection xmi:id="_BnaqFmBUEemXI_NE-qBRrg" connectorName="FLOW" label="row1" lineStyle="0" metaname="INPUT_1" offsetLabelX="0" offsetLabelY="0" source="INPUT_1" target="tMap_1">
+    <elementParameter xmi:id="_BnaqF2BUEemXI_NE-qBRrg" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_BnaqGGBUEemXI_NE-qBRrg" field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+  </connection>
+  <connection xmi:id="_BnaqGWBUEemXI_NE-qBRrg" connectorName="FLOW" label="row3" lineStyle="0" metaname="OUTPUT_1" offsetLabelX="0" offsetLabelY="0" source="OUTPUT_1" target="tFileOutputDelimited_1">
+    <elementParameter xmi:id="_BnaqGmBUEemXI_NE-qBRrg" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_BnaqG2BUEemXI_NE-qBRrg" field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
+  </connection>
+  <connection xmi:id="_BnaqHGBUEemXI_NE-qBRrg" connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tCreateTemporaryFile_1" offsetLabelX="0" offsetLabelY="0" source="tCreateTemporaryFile_1" target="tFileInputDelimited_1">
+    <elementParameter xmi:id="_BnaqHWBUEemXI_NE-qBRrg" field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
+  </connection>
+  <connection xmi:id="_BnaqHmBUEemXI_NE-qBRrg" connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileCompare_1" offsetLabelX="0" offsetLabelY="0" source="tFileCompare_1" target="tAssert_1">
+    <elementParameter xmi:id="_BnaqH2BUEemXI_NE-qBRrg" field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk3" show="false"/>
+  </connection>
+  <connection xmi:id="_BnaqIGBUEemXI_NE-qBRrg" connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="OUTPUT_1">
+    <elementParameter xmi:id="_BnaqIWBUEemXI_NE-qBRrg" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter xmi:id="_BnaqImBUEemXI_NE-qBRrg" field="TEXT" name="UNIQUE_NAME" value="out1" show="false"/>
+  </connection>
+  <note xmi:id="_BnaqI2BUEemXI_NE-qBRrg" opaque="true" posX="480" posY="0" sizeHeight="64" sizeWidth="360" text="This Test Case has been created automatically&#xD;&#xA;please setup all the datasets"/>
+  <subjob xmi:id="_BnaqJGBUEemXI_NE-qBRrg">
+    <elementParameter xmi:id="_BnaqJWBUEemXI_NE-qBRrg" field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
+    <elementParameter xmi:id="_BnaqJmBUEemXI_NE-qBRrg" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_BnaqJ2BUEemXI_NE-qBRrg" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_BnaqKGBUEemXI_NE-qBRrg">
+    <elementParameter xmi:id="_BnaqKWBUEemXI_NE-qBRrg" field="TEXT" name="UNIQUE_NAME" value="tCreateTemporaryFile_1" show="false"/>
+    <elementParameter xmi:id="_BnaqKmBUEemXI_NE-qBRrg" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_BnaqK2BUEemXI_NE-qBRrg" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_BnaqLGBUEemXI_NE-qBRrg">
+    <elementParameter xmi:id="_BnaqLWBUEemXI_NE-qBRrg" field="TEXT" name="UNIQUE_NAME" value="tFileCompare_1" show="false"/>
+    <elementParameter xmi:id="_BnaqLmBUEemXI_NE-qBRrg" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_BnaqL2BUEemXI_NE-qBRrg" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_BnaqMGBUEemXI_NE-qBRrg">
+    <elementParameter xmi:id="_BnaqMWBUEemXI_NE-qBRrg" field="TEXT" name="UNIQUE_NAME" value="tAssert_1" show="false"/>
+    <elementParameter xmi:id="_BnaqMmBUEemXI_NE-qBRrg" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_BnaqM2BUEemXI_NE-qBRrg" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <testContainerNodes xmi:id="_BnaqNWBUEemXI_NE-qBRrg" componentName="INPUT" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="288" posY="160" input="true">
+    <elementParameter xmi:id="_BnaqNmBUEemXI_NE-qBRrg" field="TEXT" name="UNIQUE_NAME" value="INPUT_1"/>
+    <elementParameter xmi:id="_BnaqN2BUEemXI_NE-qBRrg" field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter xmi:id="_BnaqOGBUEemXI_NE-qBRrg" field="CHECK" name="START" value="false" show="false"/>
+    <elementParameter xmi:id="_BnaqOWBUEemXI_NE-qBRrg" field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+    <elementParameter xmi:id="_BnaqOmBUEemXI_NE-qBRrg" field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+    <elementParameter xmi:id="_BnaqO2BUEemXI_NE-qBRrg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_BnaqPGBUEemXI_NE-qBRrg" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter xmi:id="_BnaqPWBUEemXI_NE-qBRrg" field="MEMO" name="COMMENT" value=""/>
+    <metadata xmi:id="_BnaqPmBUEemXI_NE-qBRrg" connector="FLOW" name="INPUT_1">
+      <column xmi:id="_BnaqP2BUEemXI_NE-qBRrg" comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField xmi:id="_BnaqQGBUEemXI_NE-qBRrg" key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getAsciiRandomString&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;length&quot;,&quot;PARAMETER_VALUE&quot;:&quot;6&quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendString&quot;}"/>
+      </column>
+    </metadata>
+  </testContainerNodes>
+  <testContainerNodes xmi:id="_BnaqQWBUEemXI_NE-qBRrg" componentName="OUTPUT" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="672" posY="192">
+    <elementParameter xmi:id="_BnaqQmBUEemXI_NE-qBRrg" field="TEXT" name="UNIQUE_NAME" value="OUTPUT_1"/>
+    <elementParameter xmi:id="_BnaqQ2BUEemXI_NE-qBRrg" field="CHECK" name="STARTABLE" value="false" show="false"/>
+    <elementParameter xmi:id="_BnaqRGBUEemXI_NE-qBRrg" field="CHECK" name="START" value="false" show="false"/>
+    <elementParameter xmi:id="_BnaqRWBUEemXI_NE-qBRrg" field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+    <elementParameter xmi:id="_BnaqRmBUEemXI_NE-qBRrg" field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+    <elementParameter xmi:id="_BnaqR2BUEemXI_NE-qBRrg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_BnaqSGBUEemXI_NE-qBRrg" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter xmi:id="_BnaqSWBUEemXI_NE-qBRrg" field="MEMO" name="COMMENT" value=""/>
+    <metadata xmi:id="_BnaqSmBUEemXI_NE-qBRrg" connector="FLOW" name="OUTPUT_1">
+      <column xmi:id="_BnaqS2BUEemXI_NE-qBRrg" comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField xmi:id="_BnaqTGBUEemXI_NE-qBRrg" key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getAsciiRandomString&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;length&quot;,&quot;PARAMETER_VALUE&quot;:&quot;6&quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendString&quot;}"/>
+      </column>
+    </metadata>
+  </testContainerNodes>
+  <OriginalNodes xmi:id="_BnaqTWBUEemXI_NE-qBRrg" uniqueName="tMap_1" posX="448" posY="256" start="true"/>
+  <testInstanceList xmi:id="_82FBIGBTEemXI_NE-qBRrg" name="Default" contextInstance="Default" displayName="Default" forbidDelete="true" testContainerID="_8pRUMGBTEemXI_NE-qBRrg">
+    <testDatas xmi:id="_82FBIWBTEemXI_NE-qBRrg" paramemterName="input_file1" value="testOfMyJob_Default_input_file1_marketing.csv" name="input_file1"/>
+    <testDatas xmi:id="_82FBImBTEemXI_NE-qBRrg" paramemterName="reference_file1" value="testOfMyJob_Default_reference_file1_departements2.csv" name="reference_file1"/>
+  </testInstanceList>
+</testcontainer:TestContainer>
