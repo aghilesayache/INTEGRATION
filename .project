@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+<<<<<<< HEAD
+	<name>MYPROJECT</name>
+	<comment></comment>
+=======
+	<name>PIC</name>
+	<comment>from CI Builder</comment>
+>>>>>>> master
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>org.talend.core.talendnature</nature>
+		<nature>com.oaklandsw.transform.runtime.nature</nature>
+	</natures>
+</projectDescription>
